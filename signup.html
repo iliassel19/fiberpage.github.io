@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="/css/style.css" rel="stylesheet" />
+
+    <title>Fiber &mdash; Create your portfolio with us</title>
+  </head>
+  <body>
+    <section class="section-cta" id="cta">
+      <div class="cta">
+        <div class="cta__text-box">
+          <a href="#" class="cta__logo logo">Fiber</a>
+          <h2 class="cta__heading">Create your Fiber account</h2>
+
+          <form class="cta__form" name="sign-up" netlify>
+            <div class="cta__grps">
+              <label for="full-name">Your Name</label>
+              <input
+                id="full-name"
+                type="text"
+                placeholder="John Doe"
+                name="full-name"
+                required
+              />
+            </div>
+
+            <div class="cta__grps">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="john@example.com"
+                name="email"
+                required
+              />
+            </div>
+
+            <div class="cta__grps">
+              <label for="password">Password</label>
+              <input
+                id="password"
+                type="password"
+                placeholder="At least 8 characters"
+                name="email"
+                required
+              />
+            </div>
+
+            <div class="cta__check">
+              <input id="terms" type="checkbox" />
+              <label for="terms"
+                >By creating an account on Fiber, you agree to the
+                <a href="#" class="cta__link">Terms & Conditions.</a></label
+              >
+            </div>
+
+            <button class="btn cta__btn">Create a Fiber Account</button>
+
+            <p class="cta__other">
+              Already have an accont? <a href="#" class="cta__link">Sign in</a>
+            </p>
+
+            <!-- <input type="checkbox" />
+              <input type="number" /> -->
+          </form>
+        </div>
+        <div class="cta__img-box">
+          <img
+            src="/Assets/Sign.png"
+            alt="Portfolio example on fiber"
+            class="cta__img"
+          />
+
+          <h2 class="cta__header">Unparalleled Templates</h2>
+          <p class="cta__description">
+            Crafted by a team of professional designers, our templates are
+            unparalleled in the market.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
